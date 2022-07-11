@@ -133,24 +133,6 @@ class Program
                 pbook.Add(p);
             }
         }
-        //string c = "";
-        //printPhoneBook(pbook);
-        //while (true)
-        //{
-        //    Console.WriteLine("Введите фамилию для поиска:\nДля выхода введите 'ex'\nЧтобы вывести всё — 'all'");
-        //    c = Console.ReadLine();
-        //    if (c == "ex")
-        //    {
-        //        return;
-        //    }
-        //    if (c == "all")
-        //    {
-        //        printPhoneBook(pbook);
-        //        continue;
-        //    }
-        //    Console.Clear();
-        //    printPhoneBook(pbook, c);
-        //}
         pbook.Sort();
         foreach (var p in pbook)
         {
